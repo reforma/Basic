@@ -1,66 +1,46 @@
 <style>
 
-//*Ofset / Margin / Border/ padding / content *//
-
-	*{
-	border-style:soild;
-	border-color:red;
-	border-width:10px;
-	}
-
-	body 	{
+	body {
 	padding-left:2em;
 	padding-top:2em;
 	padding-right:2em;
-	background-color:#66CCCC ;
-	;	
-	}
+	background-color:#66CCCC;
+        margin-top:20px;
+        }
+
 	h1 {
 	text-align: center;
 	color:white;
 	}
-	#batteries {
+
+	.table{
 	border-style: solid;
-	border-color:white;
+	border-color: white;
 	border-width:0.1em;
-margin-left:10em;
-color:white;	
-	}
-#clutches {
-	border-style: solid;
-	border-color:white;
-	border-width:0.1em;
-margin-left:10em;
-color:white;
-display:inline;	
-	}
-
-	h3 {
-	color: grey; 
-	}
-
-	tr {
-	color:grey;
-	border-spacing:1em;
-	}
-
-table{
-background-color:white;
+        margin:1em;
+        color: white;
+float:right;
 width:90%;
-border-style:solid;
-border-width: 1px;
-margin:2em;
 
+	
+	}
+
+table {width:90%;
+border-collapse:collapse;
 }
-
+        table,th,td{
+        background-color:white;
+        border-style:solid;
+        border-width: 1px;
+        margin:2em;
+        
 
 td{
 border-style:solid;
-border-width:1px;
-border-collapse: collapse;
-}
+color:white;
+} 
 
-	</style> 
+   	</style> 
 	
 	<!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
  <html lang="en">
@@ -72,23 +52,45 @@ border-collapse: collapse;
 	 <body>
 	
 	<h1><u>Stock</u></h1>
-		<div id ="batteries"> <div>
-			<table>
-				<tbody>
-				<h3><u>Batteries<u></h3>
-				<tr><td>Item</td><td>Description</td><td>Price</td><td>Quantity</td></tr>
-				<tr><td>1</td><td>18 Hole</td><td>100</td><td>15</td></tr>
-<tr><td>2</td><td>36 Hole</td><td>150</td><td>3</td></tr>
 
-				</tbody>
-			</table>
-		</div>
+          <p>
+           <ul>
+             <li>Home</li>
+             <li>Add Stock</li>
+             <li>Input Order</li>
+           </ul>
+          </p>
+<div class='table'> 
+<h3 class="header"><u><strong>Batteries</strong></u></h3>
+    <table>
+      <tbody>
+	   <tr>
+             <td>Item</td>
+             <td>Description</td>
+             <td>Price</td>
+             <td>Quantity</td>
+           </tr>
+	   <tr>
+             <td>1</td>
+             <td>18 Hole</td>
+             <td>100</td>
+             <td>15</td>
+           </tr>
+           <tr>
+              <td>2</td> 
+              <td>36 Hole</td>
+              <td>150</td>
+              <td>3</td>
+           </tr>
+      </tbody>
+    </table>
+</div>
 
-		<div id="Clutches"><div>	
+		<div class='table'>	
 
 		<table>
 <tbody>
-				<h3>Clutches</h3>
+				<h3 class="header"><u><strong>Clutches</strong></u></h3>
 				<tr><td>Item</td><td>Description</td><td>Price</td><td>Quantity</td></tr>
 				<tr><td>3</td><td>left</td><td>14.99</td><td>15</td></tr>
 <tr><td>4</td><td>right</td><td>14.99</td><td>25</td></tr>
