@@ -22,7 +22,10 @@ h1 {
   width: 90%;
 background-color:#00688B;
 }
+ul{
+position:absolute;
 
+}
 li {
   color: #00688B;
 }
