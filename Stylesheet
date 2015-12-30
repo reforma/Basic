@@ -1,0 +1,45 @@
+
+	body {
+  padding-left: 2em;
+  padding-top: 2em;
+  padding-right: 2em;
+  margin-top: 20px;
+  color: #00688B;
+}
+
+h1 {
+  text-align: center;
+  color: #00688B;
+}
+
+.table {
+  border-style: solid;
+  border-color: white;
+  border-width: 0.1em;
+  margin: 1em;
+  color: lightgrey;
+  float: right;
+  width: 90%;
+background-color:#00688B;
+}
+
+li {
+  color: #00688B;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+table,th,td {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  margin: 2em;
+  color: grey;
+}
+
+.header{ 
+padding-left:20px
+Enter file contents here
